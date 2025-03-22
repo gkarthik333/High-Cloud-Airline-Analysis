@@ -84,8 +84,6 @@ This project presents a multi-faceted analysis of airline data, covering key per
     *  Filters for origin/destination countries, states, and cities allow for granular flight selection.
 * **Detailed Flight Information:**
     *  Table displays detailed flight information, including airline ID, name, code, month, day, day name, weekday/weekend, transported passengers, and available seats.
-* **Example Airlines:**
-    *  Demonstrates filtering using Hawaiian Airlines and Delta Airlines.
 * **Geographic Visualization:**
     *  Interactive map of the United States and surrounding countries for visual flight exploration.
 ![Find Your Flights](https://github.com/user-attachments/assets/0978d449-0e8f-49fe-9be9-860d30eef46d)

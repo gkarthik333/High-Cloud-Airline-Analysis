@@ -1,11 +1,6 @@
 # High-Cloud-Airline-Analysis
 This project presents a multi-faceted analysis of airline data, covering key performance indicators, passenger preferences, flight patterns, and operational efficiency. The analysis is visualized through a series of interactive dashboards, providing insights into various aspects of the airline industry.
 
-## Data Sources (Implied):
-
-Airline flight data (including scheduled and performed departures, distances, aircraft types)
-Passenger data (including preferences, travel dates, and origin/destination information)
-Geographical data (for origin/destination locations)
 
 
 ## Data Model

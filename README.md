@@ -9,7 +9,7 @@ Geographical data (for origin/destination locations)
 
 ## Data Model
 This project utilizes a star schema for optimal airline data analysis. The central 'Maindata_final' fact table integrates data from ten dimension tables, including Airlines, Aircraft Types, and Markets. This data model enhances analysis performance by efficiently organizing flight operations and related information.
-![Screenshot 2025-03-20 014024](https://github.com/user-attachments/assets/f1eceda5-9a72-4aa6-9683-4ed687d70714)
+
 
 Key Insights & Analysis:
 

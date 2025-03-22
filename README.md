@@ -9,6 +9,7 @@ Geographical data (for origin/destination locations)
 
 ## Data Model
 This project utilizes a star schema for optimal airline data analysis. The central 'Maindata_final' fact table integrates data from ten dimension tables, including Airlines, Aircraft Types, and Markets. This data model enhances analysis performance by efficiently organizing flight operations and related information.
+![Data Modelling](https://github.com/user-attachments/assets/b392fbcd-3a16-4b95-8ea1-758277f6c502)
 
 
 Key Insights & Analysis:
@@ -37,6 +38,10 @@ The dashboard includes interactive filters for origin and destination countries,
 A table displays detailed flight information, including airline ID, name, code, month, day, day name, weekday/weekend, transported passengers, and available seats.
 Hawaiian Airlines and Delta Airline are used as examples.
 There is a map of the united states, and surrounding countries.
+![Arline Analysis](https://github.com/user-attachments/assets/5e7e8693-2aac-4402-b2da-3243921c87bb)
+![Load Factor % Analysis](https://github.com/user-attachments/assets/19189aaf-96dd-4b43-9e71-d407a3df3354)
+![Flights Analysis](https://github.com/user-attachments/assets/d82bd95a-5a73-4c9b-b4da-ec757542ad24)
+![Find Your Flights](https://github.com/user-attachments/assets/0978d449-0e8f-49fe-9be9-860d30eef46d)
 
 SQL Query:
 

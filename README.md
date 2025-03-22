@@ -32,7 +32,7 @@ This project presents a multi-faceted analysis of airline data, covering key per
 
 ## Key Metrics & Insights
 
-### 1. Overall Performance (Dashboard 1)
+### 1. Overall Performance 
 
 * **Global Coverage:**
     * Analysis spans 104 countries, offering a global perspective on airline operations.
@@ -45,8 +45,11 @@ This project presents a multi-faceted analysis of airline data, covering key per
     *  Southwest Airlines leads with 34 million passengers, indicating strong market preference.
 * **Operational Efficiency:**
     *  Year-wise bar chart (2008-2013) shows a close correlation between scheduled and performed departures, indicating high operational efficiency.
+![Arline Analysis](https://github.com/user-attachments/assets/5e7e8693-2aac-4402-b2da-3243921c87bb)
 
-### 2. Load Factor Analysis (Dashboard 2)
+
+
+### 2. Load Factor Analysis 
 
 * **Efficiency Trend:**
     *  Line graph shows an upward trend in load factor (seat occupancy) from 2008 to 2013, indicating increasing efficiency.
@@ -56,8 +59,11 @@ This project presents a multi-faceted analysis of airline data, covering key per
 * **Carrier Performance:**
     *  Table comparing load factors across carriers, highlighting disparities and potential areas for improvement.
     *  Presence of NaN values indicates missing data that requires further investigation.
+![Load Factor % Analysis](https://github.com/user-attachments/assets/19189aaf-96dd-4b43-9e71-d407a3df3354)
 
-### 3. Flight Analysis (Dashboard 3)
+
+
+### 3. Flight Analysis 
 
 * **Aircraft Type Distribution:**
     *  Majority of flights are operated by jet aircraft with 2 engines, optimizing for speed and efficiency.
@@ -68,8 +74,11 @@ This project presents a multi-faceted analysis of airline data, covering key per
     *  Limited long-haul operations observed.
 * **Route Analysis:**
     *  Chicago to Detroit and Washington DC to Charlotte are identified as prominent routes, indicating high travel demand.
+![Flights Analysis](https://github.com/user-attachments/assets/d82bd95a-5a73-4c9b-b4da-ec757542ad24)
 
-### 4. Interactive Flight Search (Dashboard 4)
+
+
+### 4. Interactive Flight Search 
 
 * **Interactive Filtering:**
     *  Filters for origin/destination countries, states, and cities allow for granular flight selection.
@@ -79,12 +88,6 @@ This project presents a multi-faceted analysis of airline data, covering key per
     *  Demonstrates filtering using Hawaiian Airlines and Delta Airlines.
 * **Geographic Visualization:**
     *  Interactive map of the United States and surrounding countries for visual flight exploration.
-
-
-
-![Arline Analysis](https://github.com/user-attachments/assets/5e7e8693-2aac-4402-b2da-3243921c87bb)
-![Load Factor % Analysis](https://github.com/user-attachments/assets/19189aaf-96dd-4b43-9e71-d407a3df3354)
-![Flights Analysis](https://github.com/user-attachments/assets/d82bd95a-5a73-4c9b-b4da-ec757542ad24)
 ![Find Your Flights](https://github.com/user-attachments/assets/0978d449-0e8f-49fe-9be9-860d30eef46d)
 
 SQL Query:

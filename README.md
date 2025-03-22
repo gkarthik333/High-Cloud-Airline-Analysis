@@ -1,17 +1,40 @@
 # High-Cloud-Airline-Analysis
 This project presents a multi-faceted analysis of airline data, covering key performance indicators, passenger preferences, flight patterns, and operational efficiency. The analysis is visualized through a series of interactive dashboards, providing insights into various aspects of the airline industry.
 
-Data Sources (Implied):
+## Data Sources (Implied):
 
 Airline flight data (including scheduled and performed departures, distances, aircraft types)
 Passenger data (including preferences, travel dates, and origin/destination information)
 Geographical data (for origin/destination locations)
 
+
 ## Data Model
-This project utilizes a star schema for optimal airline data analysis. The central 'Maindata_final' fact table integrates data from ten dimension tables, including Airlines, Aircraft Types, and Markets. This data model enhances analysis performance by efficiently organizing flight operations and related information.
+
+* **Star Schema:** The core data model is a star schema, designed for analytical efficiency.
+* **Fact Table:**
+    * `Maindata_final`: The central fact table, containing measures related to flight operations.
+* **Dimension Tables (10):**
+    * `Carrier Groups`:
+        * Key: `Carrier Group ID`.
+    * `Aircraft Types`:
+        * Key: `Aircraft Type ID`.
+    * `Carrier Operating Region`:
+        * Key: `Region Code`.
+    * `Distance Groups`:
+        * Key: `Distance Group ID`.
+    * `Airlines`:
+        * Key: `Airline ID`.
+    * `Origin Markets`:
+        * Key: `Origin Airport Market ID`.
+    * `Destination Markets`:
+        * Key: `Destination Airport Market ID`.
+    * `Aircraft Groups`:
+        * Key: `Aircraft Group ID`.
+    * `Flight Types`:
+        * Key: `Datasource ID`.
 ![Data Modelling](https://github.com/user-attachments/assets/b392fbcd-3a16-4b95-8ea1-758277f6c502)
 
-## Key Metrics & Insights
+
 ## Key Metrics & Insights
 
 * **Global Coverage:**

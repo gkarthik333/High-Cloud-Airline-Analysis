@@ -11,33 +11,40 @@ Geographical data (for origin/destination locations)
 This project utilizes a star schema for optimal airline data analysis. The central 'Maindata_final' fact table integrates data from ten dimension tables, including Airlines, Aircraft Types, and Markets. This data model enhances analysis performance by efficiently organizing flight operations and related information.
 ![Data Modelling](https://github.com/user-attachments/assets/b392fbcd-3a16-4b95-8ea1-758277f6c502)
 
+## Key Metrics & Insights
 
-Key Insights & Analysis:
+* **Global Reach:** 104 Countries analyzed, showcasing a global perspective on airline operations.
+* ✅ **Industry Overview:** 208 Airlines included, providing a broad industry overview.
+* ✅ **Extensive Flight Coverage:** 82M miles traveled, reflecting extensive flight coverage.
+* ✅ **Scale of Operations:** 187M passengers carried, emphasizing the scale of operations.
+* ✅ **Overall Airline Capacity:** 244M available seats, indicating overall airline capacity.
 
-1. Overall Performance (Dashboard 1):
-The airline data encompasses a significant scope, with 104 countries and over 208 airlines represented.
-The total distance traveled is 82 million miles, with 187 million passengers transported.
-The total available seats were 244 million.
-Southwest Airlines is the top carrier by passenger preference, with 34 million passengers.
-The year-wise operational performance shows a close correlation between scheduled and performed departures, indicating operational efficiency.
+## Top Findings from the Dashboard
 
-2. Load Factor Analysis (Dashboard 2):
-The load factor (percentage of seats filled) shows an upward trend from 2008 to 2013, indicating increasing efficiency.
-The load factor varies by weekday and weekend, with a slightly higher percentage on weekdays.
-There is a table that shows a carrier name and their load factors. There are many NaN values.
-Load factor is shown by year, quarter, and month.
+* 📌 **Top 10 Carriers by Passenger Preference:**
+    * Southwest Airlines leads the market, with 34 million passengers preferring the airline.
+* 📌 **Year-wise Operational Performance (2008-2013):**
+    * A bar chart visualizes the gap between scheduled vs. performed departures, highlighting airline efficiency trends.
+* 📌 **Growing Efficiency in Airline Operations:**
+    * A line graph tracks increasing load factors (seat occupancy rates), reflecting improved capacity utilization over time.
+* 📌 **Consistent Passenger Demand:**
+    * A pie chart reveals balanced travel patterns between weekdays and weekends, indicating steady demand across the week.
+* 📌 **Performance Variation Across Airlines:**
+    * A comparison table highlights disparities in load factors, shedding light on operational strengths and gaps.
+* 📌 **Flight Distribution Based on Aircraft Group:**
+    * Majority of flights are operated by Jet, 2-Engine aircraft, optimizing for speed and efficiency.
+    * Turbo-prop and piston aircraft indicate a strong regional presence, while helicopter/STOL flights remain niche.
+* 📌 **Flight Distribution Based on Distance:**
+    * The data suggests a strong focus on short-haul travel (under 500 miles), with limited long-haul operations.
+* 📌 **Busiest Routes (City-to-City Analysis):**
+    * The Chicago to Detroit corridor emerges as the busiest route, showcasing high travel demand.
+* 📌 **Geographical Filtering for Deeper Insights:**
+    * Interactive maps and dropdowns empower users to filter flights by origin, destination, and region, providing localized insights.
+* 📌 **Detailed Flight Records for Granular Analysis:**
+    * A detailed table enables a deep dive into flight-level data, including airline names, passenger numbers, and operational trends.
 
-3. Flight Analysis (Dashboard 3):
-The number of flights is analyzed by aircraft group and distance.
-Jet aircraft with 2 engines are the most common.
-Flights with less than 999 miles are the most common distance.
-Top routes are identified based on the number of flights, with Chicago to Detroit and Washington DC to Charlotte being prominent.
 
-4. Interactive Flight Search (Dashboard 4):
-The dashboard includes interactive filters for origin and destination countries, states, and cities.
-A table displays detailed flight information, including airline ID, name, code, month, day, day name, weekday/weekend, transported passengers, and available seats.
-Hawaiian Airlines and Delta Airline are used as examples.
-There is a map of the united states, and surrounding countries.
+
 ![Arline Analysis](https://github.com/user-attachments/assets/5e7e8693-2aac-4402-b2da-3243921c87bb)
 ![Load Factor % Analysis](https://github.com/user-attachments/assets/19189aaf-96dd-4b43-9e71-d407a3df3354)
 ![Flights Analysis](https://github.com/user-attachments/assets/d82bd95a-5a73-4c9b-b4da-ec757542ad24)

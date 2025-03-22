@@ -37,6 +37,8 @@ Geographical data (for origin/destination locations)
 
 ## Key Metrics & Insights
 
+### 1. Overall Performance (Dashboard 1)
+
 * **Global Coverage:**
     * Analysis spans 104 countries, offering a global perspective on airline operations.
     * Includes data from 208+ airlines, providing a broad industry overview.
@@ -44,11 +46,6 @@ Geographical data (for origin/destination locations)
     * 82 million miles traveled, reflecting extensive flight coverage.
     * 187 million passengers carried, highlighting the scale of operations.
     * 244 million available seats, indicating overall airline capacity.
-
-## Dashboard-Specific Findings
-
-### 1. Overall Performance (Dashboard 1)
-
 * **Top Carrier:**
     *  Southwest Airlines leads with 34 million passengers, indicating strong market preference.
 * **Operational Efficiency:**

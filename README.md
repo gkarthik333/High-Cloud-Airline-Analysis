@@ -89,14 +89,6 @@ This project presents a multi-faceted analysis of airline data, covering key per
 ![Find Your Flights](https://github.com/user-attachments/assets/0978d449-0e8f-49fe-9be9-860d30eef46d)
 
 SQL Query:
-
-Potential Further Analysis:
-Detailed analysis of load factor variations across different routes and airlines.
-Investigation of factors influencing passenger preferences.
-Predictive modeling of flight delays or cancellations based on historical data.
-Geospatial analysis of flight patterns and network optimization.
-Analysis of the NaN values in the load factor table.
-Analysis of monthly trends.
-
+![image](https://github.com/user-attachments/assets/3fdac886-e2b1-4980-8362-80a146b389de)
 
 Tools used - Microsoft Excel, MySQL, Power BI

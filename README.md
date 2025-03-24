@@ -88,7 +88,7 @@ This project presents a multi-faceted analysis of airline data, covering key per
     *  Interactive map of the United States and surrounding countries for visual flight exploration.
 ![Find Your Flights](https://github.com/user-attachments/assets/0978d449-0e8f-49fe-9be9-860d30eef46d)
 
-SQL Query:
+## SQL Query:
 ![image](https://github.com/user-attachments/assets/3fdac886-e2b1-4980-8362-80a146b389de)
 
-Tools used - Microsoft Excel, MySQL, Power BI
+## Tools used - Microsoft Excel, MySQL, Power BI
